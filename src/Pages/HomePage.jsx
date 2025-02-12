@@ -32,7 +32,7 @@ const HomePage = () => {
 
                 <>   
                         <div className="w-full bg-white z-10 fixed top-0 grid grid-cols-2 items-center justify-between p-5 shadow-lg">
-                            <div className="text-2xl font-semibold text-green-400 " >GiveRise</div>
+                            <div className="text-2xl font-semibold text-green-600 " >GiveRise</div>
                             <HomeNav />
                         </div>
                         <div className="w-full mt-[90px] h-[400px]  flex items-center justify-center  ">
