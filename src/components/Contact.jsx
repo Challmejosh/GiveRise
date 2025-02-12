@@ -15,7 +15,7 @@ const Contact = () => {
     }
 
     const serviceId="service_p9xvhab"
-    const templateId="template_z8vym07"
+    const templateId="template_5hk2hbq"
     const publicKey="WpVKGvWo3oQE711ha"
     const sendFeed = (e)=>{
         e.preventDefault();
