@@ -12,9 +12,9 @@ const Allcampaign = () => {
                         {all.slice(0, load).map((item,index) =>(
                             <div key={index} className="border-b border-b-gray-300 p-3 w-full flex gap-x-3">
                                 <img src={item.image} className="w-[150px] " alt="" />
-                                <div className="flex flex-col p-3">
+                                <div className="flex flex-col bg-slate-200 p-3">
                                     <p className="font-semibold text-lg ">{item.title}</p>
-                                    <p className=" text-md w-full line-clamp-2 flex bg-slate-200 flex-wrap ">{item.description}</p>
+                                    <p className=" text-md w-full line-clamp-2 flex flex-wrap ">{item.description}</p>
                                 </div>
                             </div>
                         ))}
