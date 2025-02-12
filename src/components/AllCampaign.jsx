@@ -14,7 +14,7 @@ const Allcampaign = () => {
                                 <img src={item.image} className="w-[150px] " alt="" />
                                 <div className="flex flex-col p-3">
                                     <p className="font-semibold text-lg ">{item.title}</p>
-                                    <div className=" text-md w-fit line-clamp-2 flex flex-wrap ">{item.description}</div>
+                                    <p className=" text-md w-full line-clamp-2 flex bg-slate-200 flex-wrap ">{item.description}</p>
                                 </div>
                             </div>
                         ))}
