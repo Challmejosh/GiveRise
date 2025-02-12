@@ -8,11 +8,11 @@ const Allcampaign = () => {
             <h1 className="flex items-center justify-start text-lg font-semibold ">On-going campaigns</h1>
             <div className="w-full flex flex-col items-center  ">
                 {allLoad ? (
-                    <div className="flex w-full item-center justify-center  flex-col">
+                    <div className="flex w-full item-center justify-center bg-slate-100  flex-col">
                         {all.slice(0, load).map((item,index) =>(
                             <div key={index} className="border-b border-b-gray-300 p-3 w-full flex gap-x-3">
                                 <img src={item.image} className="w-[150px] " alt="" />
-                                <div className="flex flex-col bg-slate-200 p-3">
+                                <div className="flex flex-col p-3">
                                     <p className="font-semibold text-lg ">{item.title}</p>
                                     <p className=" text-md w-full line-clamp-2 flex flex-wrap ">{item.description}</p>
                                 </div>
