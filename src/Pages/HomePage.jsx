@@ -28,7 +28,7 @@ const HomePage = () => {
     ]
     return ( 
         <div className=" relative flex flex-col gap-y-5 ">
-            {homeDelay ? (
+            {/*  {homeDelay ? ( */}
 
                 <>   
                         <div className="w-full bg-white z-10 fixed top-0 grid grid-cols-2 items-center justify-between p-5 shadow-lg">
@@ -82,13 +82,13 @@ const HomePage = () => {
                             <FaTimes size={24} className="cursor-pointer" onClick={handleHomeBar} />
                         </div>
                 </>
-            ):(
+            {/* ):(
                 <div className="lg:grid relative lg:grid-cols-8 items-center justify-center w-full gap-5">
                     <div className="lg:col-span-8 flex items-center justify-center [&::-webkit-scrollbar]:hidden scrollbar grid-cols-1 w-full h-[100dvh] overflow-y-scroll">
                         <div className="loader "></div>
                     </div>
                 </div>
-            )}
+            )} */}
         </div>
      );
 }
